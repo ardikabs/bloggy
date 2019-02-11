@@ -36,6 +36,25 @@ All the command, have the ability for debug all the process with the options `-d
 `ssh_public_key` - This is used by Ansible and also Terraform. A SSH Public Key path.
 `token` - This is `DIGITALOCEAN_TOKEN`, you need to change this.
 
+### Documentation
+You can see the documentation the screenshot in the `img/` directory.
+
+#### Blog Setup Process
+![Blog Setup Process](https://media.giphy.com/media/2UxQj3yghxW1FBjDVz/giphy.gif)
+
+#### Blog Up Process
+![Blog Up Process](https://media.giphy.com/media/2UxQj3yghxW1FBjDVz/giphy.gif)
+
+#### Blog Scale Up Process
+![Blog Scale Up Process](https://media.giphy.com/media/iOFNT8mf68nAMzMdDp/giphy.gif)
+
+#### Blog Scale Down Process
+![Blog Scale Down Process](https://media.giphy.com/media/8vvZLTmVbQtILyIb5N/giphy.gif)
+
+#### Blog Down Process
+![Blog Scale Down Process](https://media.giphy.com/media/5t0xBWIEOE3wzJyQw4/giphy.gif)
+
+
 ### Summary
 We already design this with the assumption of proof of concept that we can automate the process from provisioning until the Wordpress blog site is ready to accept the user request. So, in the default configuration, we will create a swarm cluster with *one managers* and *one workers*. 
 
