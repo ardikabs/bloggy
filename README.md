@@ -23,7 +23,7 @@ It is a CLI Application that have feature for automate a process from provision 
 ## How to use the CLI
 In the CLI apps, we have the list of the feature in our CLI.
 __Attention!__ Consider to check the configuration file first before used, otherwise you will caught an error.
-1. `blog setup` - This command will do the provisioning of the server instances beside the provisioning, this command will create a swarm cluster and automatically joing for the workers to the managers. This process done by the Terraform and Ansible.
+1. `blog setup` - This command will do the provisioning of the server instances beside the provisioning, this command will create a swarm cluster and automatically join for the workers to the managers. This process done by the Terraform and Ansible.
 2. `blog up` - This command will do create an instance of Database MySQL first then the Wordpress blog site instances. The wordpress blog site, can be access in this url `http://SERVER_IP:8000`. This command done by the help of Python Fabric.
 3. `blog scale` - This command will do the scale up for the wordpress instances.
 4. `blog status` - This command, only checking the number of existing wordpress instances.
