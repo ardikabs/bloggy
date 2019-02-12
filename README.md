@@ -41,7 +41,7 @@ All the command, have the ability for debug all the process with the options `-d
 You can see the documentation the screenshot in the `img/` directory.
 
 #### Blog Setup Process
-![Blog Setup Process](https://media.giphy.com/media/2UxQj3yghxW1FBjDVz/giphy.gif)
+![Blog Setup Process](https://media.giphy.com/media/9u1bsLJuN5it4LTn01/giphy.gif)
 
 #### Blog Up Process
 ![Blog Up Process](https://media.giphy.com/media/2UxQj3yghxW1FBjDVz/giphy.gif)
