@@ -31,11 +31,11 @@ __Attention!__ Consider to check the configuration file first before used, other
 
 All the command, have the ability for debug all the process with the options `-d`. All the configuration to be used are ready in the file `blog.cfg`.
 
--- The thing that need to be changed in configuration file - `blog.cfg`
-`state` - This is the state that used to track the server instances, you need to set the state file path with absolute path, otherwise this CLI Apps can track the process even start the wordpress instances.
-`ssh_private_key` - This is used by Ansible and also Terraform. A SSH Private Key path.
-`ssh_public_key` - This is used by Ansible and also Terraform. A SSH Public Key path.
-`token` - This is `DIGITALOCEAN_TOKEN`, you need to change this.
+##### The thing that need to be changed in configuration file (`blog.cfg`)
+* `state` - This is the state that used to track the server instances, you need to set the state file path with absolute path, otherwise this CLI Apps can track the process even start the wordpress instances.
+* `ssh_private_key` - This is used by Ansible and also Terraform. A SSH Private Key path.
+* `ssh_public_key` - This is used by Ansible and also Terraform. A SSH Public Key path.
+* `token` - This is `DIGITALOCEAN_TOKEN`, you need to change this.
 
 ### Documentation
 You can see the documentation the screenshot in the `img/` directory.
