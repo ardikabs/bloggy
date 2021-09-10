@@ -6,6 +6,7 @@ It is a CLI Application that have feature for automate a process from provision 
 2. Ansible version: 2.7.7
 3. Python version: 3.6.7
 4. Operating System: Only __LINUX__
+5. [Docker Compose Manifest](https://github.com/ardikabs/wordpress-docker-compose-samples)
 
 ## How to install
 1. Clone this [repo](https://github.com/ardikabs/blog-automation-terraform-ansible-stack.git).
@@ -57,10 +58,9 @@ You can see the documentation the screenshot in the `img/` directory.
 
 
 ### Summary
-We already design this with the assumption of proof of concept that we can automate the process from provisioning until the Wordpress blog site is ready to accept the user request. So, in the default configuration, we will create a swarm cluster with *one managers* and *one workers*. 
+This design give a short journey about how to manage containerization project using simple tools such as Ansible, Terraform, Python, and obviously the Docker as container engine. This project will show you the process about provisioning the Wordpress instances until its ready to get the very first request, even to maintain just in case there is huge event occur then we can scale it to handle that.
 
-The database of MySQL will be deployed on the managers, for the rest will be the workers. So this database will be the one and only database to be used for all the Wordpress instance in our Wordpress blog site.
-
-For the persistant volume, we dont care about this for now. So instead using persistant volume, we will only use the docker volume mounting on each side (the managers and workers) to take care the static file of the Wordpress blog site.
+For the persistant volume, currently we don't take this seriously as of this project just take precedence about how to facing scalability.
+So instead using something like persistant volume, we will only use a ephemeral storage using native docker volume that will be mounted on every components on this cluster which is the docker swarm manager and docker swarm workers to take care the static file of the Wordpress blog site.
 
 All the instance are used in SINGAPORE region (sgp1) in [DigitalOcean](https://www.digitalocean.com/).
